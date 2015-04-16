@@ -1,0 +1,28 @@
+#sidebar {
+	width: 30%;
+	float: left;
+	height: 100%;
+}
+
+#results {
+	width: 60%;
+	margin-left: 100px;
+	float: left;
+}
+
+.hidden {
+	display: none;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+.red {
+	color: red;
+	font-style: italic;
+}
