@@ -26,3 +26,35 @@
 	color: red;
 	font-style: italic;
 }
+
+#armCalc {
+  color: rgb(88, 88, 88);
+  display: block;
+  font-family: SOG-Volkhov, serif;
+  font-size: 110%;
+  line-height: 25.7142868041992px;
+}
+
+#armCalc p {
+  color: rgb(10, 33, 38);
+  display: block;
+  font-family: SOG-Volkhov, serif;
+  font-size: 140%;
+  line-height: 50px;
+  margin-top: 0px;
+}
+input {
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  box-sizing: border-box;
+  color: rgb(125, 224, 176);
+  display: inline-block;
+  font-family: SOG-Volkhov, serif;
+  font-size: 27px;
+  font-style: italic;
+}

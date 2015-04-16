@@ -9,21 +9,16 @@
 <div class="container">
 	<div id="sidebar">
 		<form id="armCalc" name="armCalc" action="#"> 
-			Mortgage amount:
+			<p>Mortgage amount:</p>
 			<input type="text" name="mortgageAmount" id="points" value="200000" min="600" max="5000">
-			Initial rate: <input type="text" id="intRate" value="4" class="form-control" size="6" name="intRate" /> 
+			<p>Initial rate:</p> <input type="text" id="intRate" value="4" class="form-control" size="6" name="intRate" /> 
 		</form>
 		<p class="lead red hidden" id="alertText">All fields must be numbers</p>
 	</div>
 	<div id="results" >
 		<canvas id="lineChart" width="750" height="400"></canvas>
-		<div id="chartLegend">test
+		<div id="chartLegend">
 		</div>
-		<!-- <ul class="legend">
-			<li class="legendPoint aggressive">Aggressive Estimate</li>
-			<li class="legendPoint standard">Standard Estimate</li>
-			<li class="legendPoint conservative">Conservative Estimate</li>
-		</ul> -->
 	</div>
 </div>
 </body>
