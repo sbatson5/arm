@@ -41,8 +41,7 @@ var MortgageCalc = (function() {
       var options = {
           //Boolean - Whether to fill the dataset with a colour
           datasetFill : true,
-          animationSteps: 1,
-          legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+          animationSteps: 1
       };
       var data = {
         labels:[],
@@ -154,9 +153,6 @@ var MortgageCalc = (function() {
 //set some default values and match those values to our user data
 function initialize(userData, mc) {
   mc.defineLineChart();
-  var legend = mc.lineChart.generateLegend();
-  console.log(legend);
-  $("#chartLegend").html(legend);
 }
 
 //set our values to string and add commas and a dollar sign
