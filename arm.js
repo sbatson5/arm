@@ -161,8 +161,7 @@ function moneyFormat(s) {
   //reset to 0 if the number is negative
   if(s.indexOf("-") == 0) {
     s = "$0";    
-  }
-  else {
+  } else {
     for (var i = s.length - 3; i > 0; i -= 3) {
       s = s.slice(0, i) + ',' + s.slice(i);      
     }
@@ -184,8 +183,7 @@ function resetFormValues(userData) {
   //add the alert text to the bottom of our form
   if(alertText) {
     $('#alertText').removeClass('hidden');
-  }
-  else {
+  } else {
     $('#alertText').addClass('hidden');
   }
 }
