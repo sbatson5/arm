@@ -66,10 +66,11 @@ describe("MortgageCalc", function() {
 
   describe("#getLineChartData", function(){
     beforeEach(function(){
-      spyOn(data, "getLoanActual").and.returnValue(127907.37644024668);
-      data.set("loanTerm", 120);
+      data.set("mortgageAmount", 200000);
+      data.set("intRate", 4);
       spyOn(data, "getPrincipalInterest").and.returnValue(1295);
     });
+
     // it("should validate with preset data sets", function(){
     //   var dataTest = [
     //     {}

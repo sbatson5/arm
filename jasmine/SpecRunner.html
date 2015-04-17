@@ -29,14 +29,21 @@
 <div class="container">
   <div id="sidebar">
     <form id="armCalc" name="armCalc" action="#"> 
-      Mortgage amount:
+      <p>Mortgage amount:</p>
       <input type="text" name="mortgageAmount" id="points" value="200000" min="600" max="5000">
-      Initial rate: <input type="text" id="intRate" value="4" class="form-control" size="6" name="intRate" /> 
+      <p>Initial rate:</p> <input type="text" id="intRate" value="4" class="form-control" size="6" name="intRate" /> 
     </form>
     <p class="lead red hidden" id="alertText">All fields must be numbers</p>
   </div>
   <div id="results" >
     <canvas id="lineChart" width="750" height="400"></canvas>
+    <div id="chartLegend">
+      <ul class="chart-legend">
+        <li>The first point is for <span class="aggressive">Aggressive</span> targets -- high fluctuations with a tendency to trend up</li>
+        <li>The second point is for <span class="standard">Standard</span> targets -- moderate fluctuations with a tendency to trend up</li>
+        <li>The third point is for <span class="conservative">Conservative</span> targets -- low fluctuations with a tendency to remain the same</li>
+      </ul>
+    </div>
   </div>
 </div>
 </body>

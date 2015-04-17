@@ -212,7 +212,6 @@ $(document).ready(function() {
       mc.getLineChartData();
       resetFormValues(userData);
     } 
-    
   });
 });
 
